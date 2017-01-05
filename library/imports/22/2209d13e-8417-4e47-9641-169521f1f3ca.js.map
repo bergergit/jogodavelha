@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,WAAW,GAAG,EAAE,CAAC,KAAK,CAAC;AACvB,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,qBAAa,EAAE,CAAC;;AAEhB,eAAO,EAAE;AACL,uBAAS,IAAI;AACb,gBAAI,EAAE,EAAE,CAAC,MAAM;SAClB;;AAED,oBAAY,EAAE;AACV,uBAAS,IAAI;AACb,gBAAI,EAAE,EAAE,CAAC,MAAM;SAClB;KACJ;;;AAGD,UAAM,EAAE,kBAAY;;AAEhB,SAAC,CAAC,WAAW,GAAG,WAAW,CAAC;AAC5B,UAAE,CAAC,QAAQ,CAAC,aAAa,CAAC,EAAE,CAAC,KAAK,CAAC,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE,CAAC,CAAC,CAAC,CAAA;KACxD;;AAED,eAAW,EAAE,qBAAS,CAAC,EAAE;;AAErB,YAAI,WAAW,GAAG,EAAE,CAAC,WAAW,CAAC,IAAI,CAAC,OAAO,CAAC,CAAC;AAC/C,YAAI,CAAC,IAAI,CAAC,QAAQ,CAAC,WAAW,CAAC,CAAC;;AAEhC,mBAAW,CAAC,WAAW,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,EAAE,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC;AACtD,YAAI,CAAC,YAAY,CAAC,WAAW,CAAC,CAAA;KACjC;;AAED,gBAAY,EAAE,sBAAS,MAAM,EAAE;AAC3B,eAAO,CAAC,KAAK,CAAC,QAAQ,EAAE,MAAM,CAAC,CAAC;;AAEhC,YAAI,OAAO,GAAG,EAAE,CAAC,OAAO,CAAC,IAAI,CAAC,aAAa,EAAE,GAAG,EAAE,GAAG,CAAC,CAAC;AACvD,YAAI,SAAS,GAAG,EAAE,CAAC,OAAO,CAAC,IAAI,CAAC,aAAa,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC;AACrD,cAAM,CAAC,SAAS,CAAC,EAAE,CAAC,QAAQ,CAAC,OAAO,EAAE,SAAS,CAAC,CAAC,CAAC;KACrD;;;;;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "var GameManager = cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        scaleDuration: 0,\n        \n        xPrefab: {\n            default: null,\n            type: cc.Prefab\n        },\n        \n        circlePrefab: {\n            default: null,\n            type: cc.Prefab\n        },\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        //D.GameManager = this;\n        D.GameManager = GameManager;\n        cc.director.setClearColor(cc.color(250, 250, 120, 1))\n    },\n    \n    spawnSymbol: function(e) {\n        //cc.log(\"SpawnSymbol\", e);\n        var spawnSymbol = cc.instantiate(this.xPrefab);\n        this.node.addChild(spawnSymbol);\n        //e.target.addChild(xSymbol);\n        spawnSymbol.setPosition(cc.p(e.target.x, e.target.y));\n        this.animateSpawn(spawnSymbol)\n    },\n    \n    animateSpawn: function(symbol) {\n        console.debug(\"Symbol\", symbol);\n        //console.debug(\"cc\", cc); \n        var scaleUp = cc.scaleTo(this.scaleDuration, 1.2, 1.2);\n        var scaleBack = cc.scaleTo(this.scaleDuration, 1, 1);\n        symbol.runAction(cc.sequence(scaleUp, scaleBack));\n    }\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";AACA,MAAM,CAAC,CAAC,GAAG;;AAEP,eAAW,EAAE,IAAI;CACpB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "// declare global variable \"D\"\nwindow.D = {\n    // types\n    GameManager: null,\n};"
+  ]
+}

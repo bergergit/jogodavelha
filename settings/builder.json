@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.JogoDaVelha",
+  "startScene": "74de3966-b074-47ef-b5e5-889e5f1abb92",
+  "title": "JogoDaVelha",
+  "webOrientation": "auto"
+}

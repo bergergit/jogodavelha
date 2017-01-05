@@ -1,0 +1,170 @@
+2017-01-05T18:18:10.615Z - normal: Load ~/.CocosCreator/settings.json
+2017-01-05T18:18:10.621Z - normal: checking language setting...
+2017-01-05T18:18:10.621Z - normal: Language: en
+2017-01-05T18:18:11.152Z - success: protocol editor-framework registered
+2017-01-05T18:18:11.153Z - success: protocol app registered
+2017-01-05T18:18:11.153Z - success: protocol theme registered
+2017-01-05T18:18:11.153Z - success: protocol profile registered
+2017-01-05T18:18:11.153Z - success: protocol packages registered
+2017-01-05T18:18:11.157Z - success: protocol unpack registerred
+2017-01-05T18:18:11.158Z - success: protocol disable-commonjs registerred
+2017-01-05T18:18:12.693Z - normal: connected!
+2017-01-05T18:18:12.697Z - normal: Check project /Users/fabioberger/Cocos_projects/JogoDaVelha
+2017-01-05T18:18:12.700Z - normal: Initializing Cocos2d
+2017-01-05T18:18:12.965Z - normal: Initializing Asset Database
+2017-01-05T18:18:12.988Z - success: protocol uuid registerred
+2017-01-05T18:18:12.988Z - success: protocol db registerred
+2017-01-05T18:18:12.988Z - success: protocol thumbnail registerred
+2017-01-05T18:18:12.989Z - normal: Loading editor/builtin packages
+2017-01-05T18:18:13.140Z - success: assets loaded
+2017-01-05T18:18:13.145Z - success: builder loaded
+2017-01-05T18:18:13.150Z - success: hierarchy loaded
+2017-01-05T18:18:13.156Z - success: inspector loaded
+2017-01-05T18:18:13.158Z - success: keystore loaded
+2017-01-05T18:18:13.165Z - success: node-library loaded
+2017-01-05T18:18:13.173Z - success: preferences loaded
+2017-01-05T18:18:13.198Z - success: project-importer loaded
+2017-01-05T18:18:13.205Z - success: project-settings loaded
+2017-01-05T18:18:13.210Z - success: ui-kit loaded
+2017-01-05T18:18:13.217Z - success: ui-grid loaded
+2017-01-05T18:18:13.223Z - success: scene loaded
+2017-01-05T18:18:13.224Z - success: sprite-editor loaded
+2017-01-05T18:18:13.231Z - success: timeline loaded
+2017-01-05T18:18:13.231Z - normal: Loading builtin packages
+2017-01-05T18:18:13.237Z - success: asset-db-debugger loaded
+2017-01-05T18:18:13.239Z - success: code-editor loaded
+2017-01-05T18:18:13.240Z - success: color-picker loaded
+2017-01-05T18:18:13.245Z - success: console loaded
+2017-01-05T18:18:13.250Z - success: package-manager loaded
+2017-01-05T18:18:13.255Z - success: tester loaded
+2017-01-05T18:18:13.260Z - success: ui-kit-preview-extra loaded
+2017-01-05T18:18:13.265Z - success: ui-kit-preview loaded
+2017-01-05T18:18:13.269Z - success: ui-tree loaded
+2017-01-05T18:18:13.320Z - normal: Initializing project /Users/fabioberger/Cocos_projects/JogoDaVelha
+2017-01-05T18:18:13.323Z - normal: Loading packages
+2017-01-05T18:18:13.330Z - normal: Watching packages
+2017-01-05T18:18:13.347Z - normal: Run Application
+2017-01-05T18:18:14.112Z - failed: [db-task][init] Failed to import asset /Users/fabioberger/Cocos_projects/JogoDaVelha/assets/scripts/GameManager.js, message: Compile error: SyntaxError: unknown: Unexpected token (41:4)
+        symbol.sequence(scaleUp, scaleBack);
+        cc.
+    }
+
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
+    at Parser.pp.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/location.js:24:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/util.js:82:8)
+    at Parser.pp.parseIdent (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:818:10)
+    at Parser.pp.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:254:28)
+    at Parser.pp.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:240:17)
+    at Parser.pp.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:217:19)
+    at Parser.pp.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:163:19)
+    at Parser.pp.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:145:19)
+    at Parser.pp.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:112:19)
+    at Parser.pp.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/parser/expression.js:79:19)
+2017-01-05T18:18:14.502Z - success: preview server running at http://localhost:7456
+2017-01-05T18:18:18.960Z - normal: 1.4.0-beta.7
+2017-01-05T18:18:59.119Z - normal: Compiled project javascript file successfully
+2017-01-05T18:20:50.190Z - normal: Compiled project javascript file successfully
+2017-01-05T18:22:28.271Z - normal: Compiled project javascript file successfully
+2017-01-05T18:23:37.864Z - normal: Compiled project javascript file successfully
+2017-01-05T18:25:08.884Z - normal: Compiled project javascript file successfully
+2017-01-05T18:25:30.549Z - normal: Compiled project javascript file successfully
+2017-01-05T18:25:50.502Z - normal: Compiled project javascript file successfully
+2017-01-05T19:22:53.037Z - normal: Compiled project javascript file successfully
+2017-01-05T20:34:39.972Z - error: Error: ENOENT: no such file or directory, open '/Users/fabioberger/Cocos_projects/JogoDaVelha/local/layout.windows.json'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:186:20)
+    at Object.fs.writeFileSync (fs.js:1343:33)
+    at r.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:2791)
+    at Function.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:9934)
+    at n.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:4682)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/index.js:1:3510
+    at Array.forEach (native)
+    at App.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/index.js:1:3488)
+    at process.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:983)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:188:7)
+    at processEmit [as emit] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/fsevents/node_modules/signal-exit/index.js:146:32)
+    at process._fatalException (bootstrap_node.js:304:26)
+2017-01-05T20:34:40.067Z - error: Error: ENOENT: no such file or directory, open '/Users/fabioberger/Cocos_projects/JogoDaVelha/local/layout.windows.json'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:186:20)
+    at Object.fs.writeFileSync (fs.js:1343:33)
+    at r.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:2791)
+    at Function.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:9934)
+    at BrowserWindow.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:3082)
+    at emitOne (events.js:96:13)
+    at BrowserWindow.emit (events.js:188:7)
+    at process.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:983)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:188:7)
+    at processEmit [as emit] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/fsevents/node_modules/signal-exit/index.js:146:32)
+    at process._fatalException (bootstrap_node.js:304:26)
+2017-01-05T20:34:40.177Z - error: Error: ENOENT: no such file or directory, open '/Users/fabioberger/Cocos_projects/JogoDaVelha/local/layout.windows.json'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:186:20)
+    at Object.fs.writeFileSync (fs.js:1343:33)
+    at r.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:2791)
+    at Function.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:9934)
+    at BrowserWindow.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:3082)
+    at emitOne (events.js:96:13)
+    at BrowserWindow.emit (events.js:188:7)
+    at process.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:983)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:188:7)
+    at processEmit [as emit] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/fsevents/node_modules/signal-exit/index.js:146:32)
+    at process._fatalException (bootstrap_node.js:304:26)
+2017-01-05T20:34:40.285Z - error: Error: ENOENT: no such file or directory, open '/Users/fabioberger/Cocos_projects/JogoDaVelha/local/hierarchy.json'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:186:20)
+    at Object.fs.writeFileSync (fs.js:1343:33)
+    at r.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:2791)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:3489)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:210:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:191:7)
+    at process.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:983)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:188:7)
+    at processEmit [as emit] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/fsevents/node_modules/signal-exit/index.js:146:32)
+    at process._fatalException (bootstrap_node.js:304:26)
+2017-01-05T20:34:40.289Z - error: Error: ENOENT: no such file or directory, open '/Users/fabioberger/Cocos_projects/JogoDaVelha/local/assets.json'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:186:20)
+    at Object.fs.writeFileSync (fs.js:1343:33)
+    at r.value (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:2791)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/profile.js:1:3489)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:210:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:191:7)
+    at process.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:983)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:188:7)
+    at processEmit [as emit] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/fsevents/node_modules/signal-exit/index.js:146:32)
+    at process._fatalException (bootstrap_node.js:304:26)
+2017-01-05T20:34:42.770Z - error: TypeError: Cannot read property 'nativeWin' of null
+    at _updateTitile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:229)
+    at Object.update-title (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:3257)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at _main2main (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:2249)
+    at Object.Ipc.sendToMain (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:5328)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/ipc/asset-db-ipc.js:1:2920
+    at Array.forEach (native)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/ipc/asset-db-ipc.js:1:2537)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+    at process.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:983)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:188:7)
+    at processEmit [as emit] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/fsevents/node_modules/signal-exit/index.js:146:32)
+    at process._fatalException (bootstrap_node.js:304:26)
